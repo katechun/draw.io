@@ -1,31 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T08:45:19.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-NOkZZ-0xBudJpShTVQI" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-03T08:55:54.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2td71tdkrwph73G3hkyG" version="16.6.4" type="github">
   <diagram id="vkrxlcEhSVqaesgI-VJM" name="Page-1">
-    <mxGraphModel dx="282" dy="149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="484" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-17" value="导入ip、port" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="725" y="130" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-18" value="端口是否通" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="735" y="200" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-19" value="使用默认密码ssh连接主机，并启动agent管理程序" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="300" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-20" value="管理程序自动获取主机信息，并在配置目录生成主机信息文件" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="370" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-21" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="725" y="440" width="100" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-23" value="User" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="110" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-24" value="CMDB&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22User%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bshadow%3D0%3Bglass%3D0%3Bsketch%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22190%22%20y%3D%22110%22%20width%3D%22100%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="110" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-25" value="Agent" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-25" value="Host" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="110" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-26" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
@@ -34,23 +19,50 @@
         <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-27" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="375" y="160" width="30" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.044;exitY=0.12;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="405.31999999999994" y="175" as="sourcePoint" />
-            <mxPoint x="405" y="200" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="420" y="180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Q_rpGc-FQ6wsNoZeYVbg-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="255" y="170" as="sourcePoint" />
             <mxPoint x="370" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-32" value="导入ip和port" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=0;shadow=0;glass=0;sketch=0;" connectable="0" vertex="1" parent="Q_rpGc-FQ6wsNoZeYVbg-31">
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-32" value="1.导入ip和port" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=0;shadow=0;glass=0;sketch=0;" connectable="0" vertex="1" parent="Q_rpGc-FQ6wsNoZeYVbg-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Q_rpGc-FQ6wsNoZeYVbg-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="170" as="sourcePoint" />
+            <mxPoint x="530" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-35" value="2.1检查端口通畅" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=0;shadow=0;glass=0;sketch=0;" connectable="0" vertex="1" parent="Q_rpGc-FQ6wsNoZeYVbg-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-36" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="160" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.005;entryY=0.319;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q_rpGc-FQ6wsNoZeYVbg-36" target="Q_rpGc-FQ6wsNoZeYVbg-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="190" as="sourcePoint" />
+            <mxPoint x="535" y="209.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-38" value="2.2不通畅" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=0;shadow=0;glass=0;sketch=0;" connectable="0" vertex="1" parent="Q_rpGc-FQ6wsNoZeYVbg-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Q_rpGc-FQ6wsNoZeYVbg-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="209.8" as="sourcePoint" />
+            <mxPoint x="535.57" y="209.90000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-40" value="2.3ssh连接主机启动agent" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=0;shadow=0;glass=0;sketch=0;" connectable="0" vertex="1" parent="Q_rpGc-FQ6wsNoZeYVbg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-41" value="Agent" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="635" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_rpGc-FQ6wsNoZeYVbg-42" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="160" width="30" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
